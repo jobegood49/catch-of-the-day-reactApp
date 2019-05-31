@@ -11,6 +11,7 @@ class App extends Component {
     order: {}
   }
   addFish = (fish) => {
+    console.log('toto')
     const fishes = {...this.state.fishes}
     fishes[`fish${Date.now()}`] = fish
     this.setState({
