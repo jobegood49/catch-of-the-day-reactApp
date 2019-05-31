@@ -13,6 +13,7 @@ class App extends Component {
   addFish = (fish) => {
     console.log('toto2')
     console.log('toto 3')
+    console.log('toto4')
     const fishes = {...this.state.fishes}
     fishes[`fish${Date.now()}`] = fish
     this.setState({
